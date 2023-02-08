@@ -2436,6 +2436,10 @@ blockquote {
     text-align: center;
 }
 
+#Upcoming-Event.section{
+    margin-top: -20px;
+}
+
 .section {
     position: relative;
     /* padding-top: 80px; */
