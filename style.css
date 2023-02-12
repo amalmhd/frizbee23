@@ -11600,7 +11600,7 @@ blockquote {
     }
 
     .schedule-header-wrapper {
-        text-align: left;
+        text-align: center;
     }
 
     .scrolling-wrapper {
@@ -11608,7 +11608,7 @@ blockquote {
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        flex-direction: column;
+        flex-direction: row;
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
