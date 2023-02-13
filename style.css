@@ -2751,10 +2751,16 @@ blockquote {
 
 .section.background-dots-overflow-hidden {
     overflow: hidden;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62b46e849747040108ae5e31_Background%20(1).png");
+    /* background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62b46e849747040108ae5e31_Background%20(1).png");
     background-position: 50% 0%;
     background-size: 100% 30%;
+    background-repeat: no-repeat; */
+    background-image: linear-gradient(27deg, #fea22a, #df5ee8ba, #471087);
     background-repeat: no-repeat;
+    background-size: cover;
+  /* background-image: radial-gradient(black 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px; */
 }
 
 .section.background-agenda {
@@ -4913,7 +4919,7 @@ blockquote {
     border-radius: 50px;
     padding: 7px 25px;
     margin: 0 0 0 0;
-    color: #000;
+    color: #000 !important; 
 }
 
 .search-wrap {
@@ -6864,7 +6870,7 @@ blockquote {
 .card {
     width: 32%;
     min-height: 750px;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62b474b74ec51020b544d681_Line.png"), url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62b46e83ca86ca550d1a5549_Background%20(2).png");
+    background-image: url("");
     background-position: 50% 17%, 50% 50%;
     background-size: 95%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
@@ -6873,6 +6879,11 @@ blockquote {
     transition: transform 300ms ease;
     transition: transform 300ms ease, -webkit-transform 300ms ease;
     text-align: center;
+}
+
+.frizbeetkt{
+    position: relative;
+    /* width: 10px; */
 }
 
 .card.card-centered {
@@ -7822,7 +7833,7 @@ blockquote {
 }
 
 .brand-wrapper {
-    width: 10%;
+    width: 14%;
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
     -ms-flex-order: -1;
@@ -8568,7 +8579,7 @@ blockquote {
     }
 
     .brand-wrapper {
-        width: 25%;
+        width: 30%;
     }
 
     .navigation--link {
@@ -9323,6 +9334,7 @@ blockquote {
         font-size: 15px;
         font-weight: 400;
     }
+
 
     .nav-dropdown-link.w--current {
         font-weight: 400;
@@ -10150,7 +10162,7 @@ blockquote {
     }
 
     .brand-wrapper {
-        width: 25%;
+        width: 35%;
     }
 
     .navigation--link {
@@ -10163,6 +10175,14 @@ blockquote {
         padding-bottom: 10px;
         padding-left: 25px;
         color: #222;
+    }
+
+    .ticket{
+        width: 30%;
+        font-weight: 750 !important;
+        color: #3f0d7c !important;
+        /* background-color: #3d0d7b; */
+        /* margin-left: 20px !important; */
     }
 
     .navigation--link:hover {
