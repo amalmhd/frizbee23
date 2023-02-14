@@ -274,7 +274,7 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    background-color: #471087;
+    background-color: #c46cff;
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -3117,12 +3117,17 @@ blockquote {
 
 .primary-button.contact-button {
     display: block;
+    border-radius: 50px;
+    background-color: #461187;
+    border-width: 0;
 }
 
 .primary-button.text {
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 1.3px;
+    background-color: #461187;
+    border-width: 0;
 }
 
 .primary-button.text:hover {
@@ -3329,7 +3334,7 @@ blockquote {
 }
 
 .tablet-menu {
-    display: none;
+    display: none !important;
 }
 
 .nav-item-title {
@@ -4058,7 +4063,7 @@ blockquote {
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
-    align-items: flex-start;
+    align-items: center;
     background-color: #222;
     text-align: center;
 }
@@ -4718,7 +4723,7 @@ blockquote {
 }
 
 .footer-link:hover {
-    color: #e32682;
+    color: #ffc605;
 }
 
 .footer-social-icons-wrapper {
@@ -5325,7 +5330,7 @@ blockquote {
 }
 
 .button-with-icon-black {
-    padding: 15px 55px;
+    padding: 15px 30px;
     border-style: solid;
     border-width: 1px;
     border-radius: 50px;
@@ -5723,19 +5728,19 @@ blockquote {
     padding: 15px 35px;
     border-style: solid;
     border-width: 1px;
-    border-color: #222;
-    background-color: #222;
-    -webkit-transition: background-color 300ms ease;
+    border-color: #fff;
+    background-color: #fff;
+    border-radius: 50px;
     transition: background-color 300ms ease;
-    color: #fff;
+    color: #222;
     font-size: 14px;
     letter-spacing: 1px;
     text-transform: uppercase;
 }
 
 .primary-button-black:hover {
-    border-color: #e32682;
-    background-color: #e32682;
+    border-color: #471087;
+    background-color: #471087;
     color: #fff;
 }
 
@@ -5767,6 +5772,7 @@ blockquote {
     padding: 15px 50px 15px 30px;
     border-style: solid;
     border-width: 1px;
+    border-radius: 50px ;
     border-color: #fff;
     background-color: #fff;
     background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62c6ae7b5a382ec5118be30f_right-arrow%20(4)%20(1).svg");
@@ -5842,8 +5848,8 @@ blockquote {
     border-style: solid;
     border-width: 1px;
     border-color: #fff;
+    border-radius: 50px;
     background-color: transparent;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62a1eb0dee0b5aacbc3a4ed8_play-solid%201%20(2).svg");
     background-position: 10% 50%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -5856,12 +5862,12 @@ blockquote {
 }
 
 .button-whith-icon-play:hover {
-    background-color: #fff;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62aaf59bfbe45fcc45ad9ce9_Vector%20(13).svg");
+    background-color: #461187;
+    border-color: #461187;
     background-position: 10% 50%;
     background-size: auto;
     background-repeat: no-repeat;
-    color: #222;
+    color: #ffe100;
 }
 
 .hero {
@@ -5891,7 +5897,6 @@ blockquote {
 
 .location {
     padding-left: 30px;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62c587d44d448767774f8767_map%20(1).svg");
     background-position: 0% 50%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -5974,7 +5979,10 @@ blockquote {
 .medium-heading {
     width: 90%;
     padding-top: 20px;
-    color: #fff;
+    color: #461187;
+}
+.medium-heading span{
+    color: #ffc605;
 }
 
 .medium-heading.black {
@@ -6038,6 +6046,12 @@ blockquote {
     align-items: center;
 }
 
+.timer-wrapper {
+    margin: 20px;
+    width: 50%;
+    text-align: center;
+}
+
 .event-wrapper {
     position: relative;
     display: -webkit-box;
@@ -6065,7 +6079,7 @@ blockquote {
 }
 
 .button-with-icon-black {
-    padding-right: 50px;
+    /* padding-right: 50px; */
     background-position: 86% 50%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -6117,7 +6131,7 @@ blockquote {
 .pink-line {
     width: 50px;
     height: 5px;
-    background-color: #461187;
+    background-color: #e32682;
 }
 
 .pink-line.size {
@@ -6402,8 +6416,8 @@ blockquote {
     right: auto;
     bottom: 103px;
     z-index: 2;
-    width: 165px;
-    height: 165px;
+    width: 512px;
+    height: 335px;
 }
 
 .link-image {
@@ -6550,7 +6564,7 @@ blockquote {
 }
 
 .main-tabs {
-    width: 900px;
+    width: 100%;
     margin: 50px auto;
     box-shadow: 1px 1px 73px 0 rgba(0, 0, 0, 0.08);
     color: #fff;
@@ -6646,19 +6660,16 @@ blockquote {
 }
 
 .session-name {
-    display: none;
     font-size: 14px;
     font-weight: 600;
 }
 
 .time {
-    display: none;
     font-size: 14px;
     font-weight: 400;
 }
 
 .room {
-    display: none;
     font-size: 14px;
     font-weight: 400;
 }
@@ -6685,18 +6696,16 @@ blockquote {
 .grid-tab-headers {
     display: -ms-grid;
     display: flex;
-    padding-left: 8%;
-    padding-right: 8%;
     margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-content: space-between;
-  
     grid-auto-columns: 1fr;
     grid-column-gap: 16px;
     grid-row-gap: 16px;
     -ms-grid-columns: 0.5fr 1.75fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1.75fr;
     -ms-grid-rows: auto;
-    grid-template-rows: auto;
 }
 
 .schedule-header-wrapper {
@@ -6711,9 +6720,9 @@ blockquote {
 .schedule-block {
     display: -ms-grid;
     display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
     justify-content: space-between;
-    padding-left: 8%;
-    padding-right: 8%;
     padding-top: 10px;
     padding-bottom: 10px;
     grid-auto-columns: 1fr;
@@ -6721,12 +6730,11 @@ blockquote {
     grid-row-gap: 16px;
     grid-template-columns: 1fr 1.75fr;
     -ms-grid-rows: auto;
-    grid-template-rows: auto;
     text-align: left;
 }
 
 .schedule-block.pink-background {
-    background-color: #f6ebff;
+    background-color: #fff8fb;
     text-align: left;
 }
 
@@ -6735,7 +6743,7 @@ blockquote {
 }
 
 .schedule-block.pink-background {
-    background-color: #f6ebff;
+    background-color: #fff8fb;
     text-align: left;
 }
 
@@ -6879,7 +6887,6 @@ blockquote {
 .card {
     width: 32%;
     min-height: 750px;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62b474b74ec51020b544d681_Line.png"), url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62b46e83ca86ca550d1a5549_Background%20(2).png");
     background-position: 50% 17%, 50% 50%;
     background-size: 95%, 100% 100%;
     background-repeat: no-repeat, no-repeat;
@@ -7583,10 +7590,10 @@ blockquote {
     overflow: hidden;
     max-width: 1920px;
 }
-
+/* 
 .elements-wrapper .base-container{
         overflow-x: auto;
-}
+} */
 
 .small-planet-copy {
     position: absolute;
@@ -7756,6 +7763,9 @@ blockquote {
     color: hsla(0, 0%, 100%, 0.7);
     font-size: 14px;
 }
+.footer-copyright strong{
+    color: #ffc605;
+}
 
 .footer-copyright-link {
     display: inline;
@@ -7853,6 +7863,11 @@ blockquote {
     color: #fff;
     font-size: 15px;
     font-weight: 400;
+}
+.navigation--link span{
+    color: #461187;
+    /* padding: 0px; */
+    font-weight: 600;
 }
 
 .navigation--link:hover {
@@ -8362,8 +8377,8 @@ blockquote {
     }
 
     .idea-image {
-        width: 210px;
-        height: 210px;
+        width: 512px;
+        height: 335px;
     }
 
     .link-image {
@@ -8403,7 +8418,7 @@ blockquote {
     }
 
     .main-tabs {
-        width: 1150px;
+        width: 85%;
         margin-top: 80px;
     }
 
@@ -8725,7 +8740,7 @@ blockquote {
     }
 
     .main-tabs {
-        width: 1150px;
+        width: 85%;
     }
 
     .scrolling-wrapper {
@@ -9299,6 +9314,11 @@ blockquote {
         -ms-flex-direction: column;
         flex-direction: column;
         border-style: none;
+    }
+
+    .navigation--link span{
+        padding: 0;
+        background: none;
     }
 
     .nav-dropdown-list.w--open {
@@ -10899,8 +10919,8 @@ blockquote {
     .idea-image {
         left: 40px;
         bottom: 102px;
-        width: 150px;
-        height: 150px;
+        width: 171px;
+        height: 104px;
     }
 
     .link-image {
@@ -11532,8 +11552,8 @@ blockquote {
     .idea-image {
         left: 21px;
         bottom: 65px;
-        width: 80px;
-        height: 80px;
+        width: 128px;
+        height: 84px;
     }
 
     .link-image {
