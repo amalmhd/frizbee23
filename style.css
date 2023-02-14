@@ -6706,6 +6706,8 @@ blockquote {
     font-size: 12px;
 }
 
+
+
 .current-text-span {
     font-size: 12px;
 }
@@ -6733,6 +6735,9 @@ blockquote {
 .schedule-header-wrapper {
     padding-top: 40px;
     padding-bottom: 40px;
+}
+.schedule-header-wrapper h4{
+    color: #222;
 }
 
 .subscribe-heading-span {

@@ -100,7 +100,7 @@
             <div class="date" style="color: rgb(238,196,47);">3 4 5 March 2023</div>
           </div>
           <div data-w-id="e32863d4-9634-7d38-54dc-05c49f3ed595" style="opacity: 0" class="date-wrapper">
-            <div class="location" >MES College of Engineering, kuttippuram</div>
+            <div class="location">MES College of Engineering, kuttippuram</div>
           </div>
           <div data-w-id="08020df7-630a-4a59-37b7-b759558dd9ba" style="opacity: 0" class="banner-button-wrapper">
             <a href="" class="button-lightbox--wrapper w-inline-block w-lightbox">
@@ -222,7 +222,7 @@
             style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"
             class="wrapper-header">
             <h3 style="color: #fff;">About</h3>
-            <h2 class="header-right"style="color: #fff;">FrizBee'23</h2>
+            <h2 class="header-right" style="color: #fff;">FrizBee'23</h2>
             <div style="width: 50px;" class="pink-line"></div>
           </div>
           <p data-w-id="3b0a3185-e5a6-0a0d-7b76-f8529a889cf5" style="opacity: 0;color: aliceblue;" class="description">
@@ -245,7 +245,7 @@
 
   <!-- Speakers section -->
 
-<!-- 
+  <!-- 
   <div id="speakers" class="section letter wf-section">
     <div class="base-container background-with-dots w-container">
       <div data-w-id="77b4540c-9202-a72c-40ec-b078bf0cfdaf" style="opacity: 0" class="heading-wrapper without-padding">
@@ -381,8 +381,8 @@
                   </div>
                 </div> -->
 
-      </div>
-    </div>
+  </div>
+  </div>
   </div> -->
 
   <!-- Speakers section end -->
@@ -874,7 +874,7 @@
         <p data-w-id="fa4b9746-78d0-d798-d8a3-2c0039170b4f" style="opacity: 0" class="description-conference">
         <h3 style="color: #fff;">MES College of Engineering</h3>
         </p>
-        <h4style="color: #fff;">Transportation</h4>
+        <h4 style="color: #fff">Transportation</h4>
       </div>
       <div data-w-id="2d7c598c-44ee-7150-63f0-fef768be7efe" style="opacity: 0" class="home-blog-wrapper">
         <div class="main-collection-list-wrapper w-dyn-list">
@@ -883,7 +883,7 @@
               <img height="250" loading="lazy" width="350" src="Assets/images/ktp_railway.jpg" alt="people">
               <div class="card-description-wrapper">
                 <h6 class="blog-card-date"></h6>
-                <h4 class="collection-heading"style="color: #fff;">
+                <h4 class="collection-heading" style="color: #fff;">
                   Kuttippuram Railway Station
                 </h4>
                 <p class="detail-text">
@@ -895,7 +895,7 @@
                 src="Assets/images/Calicut_airport.jpg" alt="people">
               <div class="card-description-wrapper">
                 <h6 class="blog-card-date"></h6>
-                <h4 class="collection-heading"style="color: #fff;">
+                <h4 class="collection-heading" style="color: #fff;">
                   Calicut Airport
                 </h4>
                 <p class="detail-text">
@@ -907,7 +907,7 @@
               <img height="250" loading="lazy" width="350" src="Assets/images/kuttippuram-bus-stand.jpg" alt="people">
               <div class="card-description-wrapper">
                 <h6 class="blog-card-date"></h6>
-                <h4 class="collection-heading"style="color: #fff;">
+                <h4 class="collection-heading" style="color: #fff;">
                   Kuttipuram Bus Stand
                 </h4>
                 <p class="detail-text">
@@ -1162,7 +1162,7 @@
         </div>
       </div>
     </div>
-    <div class="wrapper-with-arrow bulk" >
+    <div class="wrapper-with-arrow bulk">
       <!-- <a href="https://wa.me/c/917907250162" class="button-with-icon-black1">Bulk/Offline Ticktets</a> -->
     </div>
   </div>
@@ -1290,17 +1290,17 @@
   <!--[if lte IE 9
       ]><script src="//cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script
     ><![endif]-->
-    <script>
-      const scriptURL = '<SCRIPT URL>'
-      const form = document.forms['submit-to-google-sheet']
-    
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => console.log('Success!', response))
-          .catch(error => console.error('Error!', error.message))
-      })
-    </script>
+  <script>
+    const scriptURL = '<SCRIPT URL>'
+    const form = document.forms['submit-to-google-sheet']
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => console.log('Success!', response))
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
 
   <script>
     var countDownDate = new Date("Mar 03, 2023 00:00:00").getTime();
