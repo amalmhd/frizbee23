@@ -5787,8 +5787,8 @@ blockquote {
 }
 
 .button-whith-icon-white:hover {
-    border-color: #222;
-    background-color: #222;
+    border-color: #461187;
+    background-color: #461187;
     background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62c6a9064d6771275dc04bf4_right-arrow%20(3)%20(1).svg"), url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62c6ae7b5a382ec5118be30f_right-arrow%20(4)%20(1).svg");
     background-position: 86% 50%, 86% 50%;
     background-size: auto, auto;
@@ -11507,7 +11507,7 @@ blockquote {
     }
 
     .link-button-wrapper {
-        left: 50%;
+        left: 20px;
         margin-right: auto;
         margin-left: auto;
         -webkit-transform: translate(-50%, 0px);
