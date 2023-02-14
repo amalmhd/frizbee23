@@ -5352,7 +5352,7 @@ blockquote {
 
 .home-block {
     height: 100vh;
-    background-image: url("carnival.jpg"), linear-gradient(27deg, #fea22a, #471087);
+    background-image: url("Assets/images/homebg_1.jpg"), linear-gradient(27deg, #fea22a, #471087);
     background-position: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -7850,7 +7850,7 @@ blockquote {
 }
 
 .brand-wrapper {
-    width: 10%;
+    width: 100%;
     -webkit-box-ordinal-group: 0;
     -webkit-order: -1;
     -ms-flex-order: -1;
@@ -8600,10 +8600,6 @@ blockquote {
         padding-top: 140px;
     }
 
-    .brand-wrapper {
-        width: 25%;
-    }
-
     .navigation--link {
         padding-right: 20px;
         padding-left: 20px;
@@ -8938,7 +8934,7 @@ blockquote {
 
     .idea-image {
         left: 87px;
-        bottom: 209px;
+        /* bottom: 209px; */
     }
 
     .link-image {
@@ -9370,7 +9366,7 @@ blockquote {
         display: -webkit-box;
         display: -webkit-flex;
         display: -ms-flexbox;
-        display: flex;
+        display: flex !important;
         padding: 15px;
         -webkit-box-pack: justify;
         -webkit-justify-content: space-between;
@@ -10185,10 +10181,6 @@ blockquote {
     .footer-text-wrapper {
         margin-top: 15px;
         margin-right: 0px;
-    }
-
-    .brand-wrapper {
-        width: 25%;
     }
 
     .navigation--link {
@@ -11555,8 +11547,8 @@ blockquote {
     .idea-image {
         left: 21px;
         bottom: 65px;
-        width: 128px;
-        height: 84px;
+        /* width: 128px;
+        height: 84px; */
     }
 
     .link-image {
