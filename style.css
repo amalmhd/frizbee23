@@ -10250,6 +10250,14 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
+    .home-block {
+        height: 100vh;
+        background-image: url("Assets/images/website\ lp-02.png");
+        background-position: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
     h1 {
         font-size: 40px;
     }
@@ -11192,6 +11200,14 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
+    .home-block {
+        height: 100vh;
+        background-image: url("Assets/images/website\ lp-02.png");
+        background-position: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
     .section.about-section-space {
         background-position: 137% 62%;
         background-size: 80%;
