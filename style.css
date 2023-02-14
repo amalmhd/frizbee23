@@ -7763,8 +7763,11 @@ blockquote {
     color: hsla(0, 0%, 100%, 0.7);
     font-size: 14px;
 }
-.footer-copyright strong{
+.footer-copyright a{
     color: #ffc605;
+}
+.footer-copyright a:hover{
+    color: #461187;
 }
 
 .footer-copyright-link {
