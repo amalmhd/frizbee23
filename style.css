@@ -274,7 +274,9 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    background-color: #c46cff;
+    
+    /* background: rgb(82,16,164); */
+    background: linear-gradient(to left, rgba(82,16,164,1) 40%, rgba(33,0,86,1) 100%) fixed;
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -5343,7 +5345,27 @@ blockquote {
     letter-spacing: 1px;
     text-transform: uppercase;
 }
-
+.button-with-icon-black1 {
+    padding: 20px 50px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    border-color: #fff;
+    background-color: #fff;
+    -webkit-transition: background-color 300ms ease;
+    transition: background-color 300ms ease;
+    font-family: Poppins, sans-serif;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.bulk{
+    margin: auto;
+    position: relative;
+    margin-top: 22px; 
+    width: 100%; 
+    text-align: center;
+}
 .button-with-icon-black:hover {
     border-color: #461187;
     background-color: #461187;
@@ -5352,7 +5374,7 @@ blockquote {
 
 .home-block {
     height: 100vh;
-    background-image: url("carnival.jpg"), linear-gradient(27deg, #fea22a, #471087);
+    background-image: url("Assets/images/website\ lp_Mesa\ de\ trabajo\ 1.jpg");
     background-position: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -8627,26 +8649,32 @@ blockquote {
 
 @media screen and (min-width: 1440px) {
     h1 {
+        color: #fff;
         margin-bottom: 10px;
     }
 
     h2 {
+        color: #fff;
         margin-bottom: 10px;
     }
 
     h3 {
+        color: #fff;
         margin-bottom: 10px;
     }
 
     h4 {
+        color: #fff;
         margin-bottom: 10px;
     }
 
     h5 {
+        color: #fff;
         margin-bottom: 10px;
     }
 
     h6 {
+        
         margin-bottom: 10px;
     }
 
@@ -10922,8 +10950,8 @@ blockquote {
     .idea-image {
         left: 40px;
         bottom: 102px;
-        width: 171px;
-        height: 104px;
+        width: 179px;
+        height: 134px;
     }
 
     .link-image {
@@ -11555,8 +11583,8 @@ blockquote {
     .idea-image {
         left: 21px;
         bottom: 65px;
-        width: 128px;
-        height: 84px;
+        width: 179px;
+        height: 134px;
     }
 
     .link-image {
@@ -11572,8 +11600,8 @@ blockquote {
     }
 
     .wrapper-with-image {
-        width: 280px;
-        height: 280px;
+        width: 248px;
+        height: 144px;
     }
 
     .form-block-wrapper {
