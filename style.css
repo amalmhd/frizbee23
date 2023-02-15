@@ -5915,6 +5915,7 @@ blockquote {
     color: #fff;
     letter-spacing: 4px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 
 .location {
