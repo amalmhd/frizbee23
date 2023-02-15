@@ -6667,9 +6667,9 @@ blockquote {
 }
 
 .header-name {
-    color: #e32682;
-    font-weight: 600;
-    letter-spacing: 2.4px;
+    color: #51129e;
+    font-weight: 700;
+    letter-spacing: 2.8px;
     text-transform: uppercase;
 }
 
@@ -6761,19 +6761,13 @@ blockquote {
 }
 
 .schedule-block.pink-background {
-    background-color: #fff8fb;
+    background-color: #e4ceff;
     text-align: left;
 }
 
 .schedule-block.bottom {
     margin-bottom: 40px;
 }
-
-.schedule-block.pink-background {
-    background-color: #fff8fb;
-    text-align: left;
-}
-
 .none {
     height: 1px;
 }
@@ -10255,6 +10249,12 @@ blockquote {
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
+
+    body{
+        background: linear-gradient(to bottom, rgba(82,16,164,1) 40%, rgba(33,0,86,1) 100%) fixed;
+
+    }
+
     h1 {
         font-size: 40px;
     }
@@ -11344,6 +11344,18 @@ blockquote {
         font-size: 32px;
     }
 
+    .schedule-block.pink-background {
+        padding: 3%;
+    }
+
+    .schedule-block{
+        padding: 3%;
+    }
+
+    .data-tab-text{
+        display: none;
+    }
+
     .blog-classic-wrapper {
         padding-right: 0px;
         padding-left: 0px;
@@ -11493,8 +11505,8 @@ blockquote {
         grid-row-gap: 10px;
     }
 
-    .date-wrapper {
-        max-width: 330px;
+    .location{
+        padding-left: 0%;
     }
 
     .banner-wrapper {
@@ -11531,7 +11543,7 @@ blockquote {
         width: 100%;
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     .event-wrapper {
@@ -11539,12 +11551,17 @@ blockquote {
     }
 
     .number {
-        font-size: 65px;
+        font-size: 35px;
+    }
+
+    .subheading{
+        font-size: .7em;
     }
 
     .timer-wrapper {
-        width: 50%;
-        text-align: center;
+        margin: .45em;
+        width: 0; 
+        text-align: left;
     }
 
     .link-button-wrapper {
