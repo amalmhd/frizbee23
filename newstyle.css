@@ -3077,8 +3077,8 @@ blockquote {
     padding: 15px 30px;
     border-style: solid;
     border-width: 1px;
-    border-color: #e32682;
-    background-color: #e32682;
+    border-color: #45105f;
+    background-color: #45105f;
     -webkit-transition: background-color 300ms ease;
     transition: background-color 300ms ease;
     color: #fff;
@@ -3088,10 +3088,10 @@ blockquote {
 }
 
 .primary-button:hover {
-    border-color: #222;
-    background-color: #222;
+    border-color: #420552;
+    background-color: #420552;
     opacity: 1;
-    color: #fff;
+    color: #ffc100;
 }
 
 .primary-button.full-width {
@@ -3116,6 +3116,10 @@ blockquote {
     border-width: 0;
 }
 
+.primary-button.contact-button:hover{
+    color: #ffc100;
+}
+
 .primary-button.text {
     font-size: 13px;
     font-weight: 600;
@@ -3127,7 +3131,7 @@ blockquote {
 .primary-button.text:hover {
     border-color: #fff;
     background-color: #fff;
-    color: #222;
+    color: #45105f;
 }
 
 .style-guide-div {
@@ -5358,9 +5362,9 @@ blockquote {
 }
 
 .button-with-icon-black:hover {
-    border-color: #461187;
-    background-color: #461187;
-    color: #fff;
+    border-color: #45105f;
+    background-color: #45105f;
+    color: #ffe100;
 }
 
 .home-block {
@@ -5752,9 +5756,9 @@ blockquote {
 }
 
 .primary-button-black:hover {
-    border-color: #471087;
-    background-color: #471087;
-    color: #fff;
+    border-color: #45105f;
+    background-color: #45105f;
+    color: #ffc100;
 }
 
 .button-with-icon-pink {
@@ -10937,8 +10941,8 @@ blockquote {
     .idea-image {
         left: 40px;
         bottom: 102px;
-        width: 179px;
-        height: 134px;
+        width: 358px;
+        height: 268px;
     }
 
     .link-image {
@@ -11576,8 +11580,8 @@ blockquote {
     .idea-image {
         left: 21px;
         bottom: 65px;
-        /* width: 128px;
-        height: 84px; */
+        width: 179px;
+        height: 134px;
     }
 
     .link-image {
