@@ -9918,11 +9918,11 @@ blockquote {
     }
 
     .event-wrapper {
-        -webkit-box-orient: vertical;
+        -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
-        -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
     }
 
     .button-with-icon-pink {
@@ -11562,13 +11562,14 @@ blockquote {
 
     .number-wrapper {
         width: 100%;
-        -webkit-flex-wrap: wrap;
+        /* -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
+        flex-wrap: wrap; */
     }
 
     .event-wrapper {
         position: relative;
+        display: block;
     }
 
     .number {
