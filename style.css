@@ -9933,7 +9933,7 @@ blockquote {
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .button-with-icon-pink {
@@ -10953,6 +10953,11 @@ blockquote {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+        width: 80%;
+    }
+
+    .event-wrapper h2,h5 {
+        font-size: 3em;
     }
 
     .link-button-wrapper {
