@@ -145,7 +145,7 @@ select {
 button,
 html input[type="button"],
 input[type="reset"] {
-    /* -webkit-appearance: button; */
+    -webkit-appearance: button;
     cursor: pointer
 }
 
@@ -175,9 +175,9 @@ input[type='number']::-webkit-outer-spin-button {
     height: auto
 }
 
-/* input[type='search'] {
+input[type='search'] {
     -webkit-appearance: none
-} */
+}
 
 input[type='search']::-webkit-search-cancel-button,
 input[type='search']::-webkit-search-decoration {
@@ -226,7 +226,7 @@ th {
 [class^="w-icon-"],
 [class*=" w-icon-"] {
     font-family: 'webflow-icons' !important;
-    /* speak: none; */
+    speak: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -292,19 +292,16 @@ img {
 html.w-mod-touch * {
     background-attachment: scroll !important
 }
-
-.hello {
-    position: absolute;
+.hello{
+    position: absolute;   
 }
-
 #myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-}
-
+  }
 .w-block {
     display: block
 }
@@ -2404,7 +2401,7 @@ a {
 }
 
 a:hover {
-    color: #45105f;
+    color: #e32682;
 }
 
 ul {
@@ -2450,7 +2447,7 @@ blockquote {
     text-align: center;
 }
 
-#Upcoming-Event.section {
+#Upcoming-Event.section{
     margin-top: -20px;
     z-index: -1;
 }
@@ -2766,9 +2763,9 @@ blockquote {
 
 .section.background-dots-overflow-hidden {
     overflow: hidden;
-    /* background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62b46e849747040108ae5e31_Background%20(1).png"); */
-    background-position: 50% 30%;
-    background-size: 100% 10%;
+    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62b46e849747040108ae5e31_Background%20(1).png");
+    background-position: 50% 0%;
+    background-size: 100% 30%;
     background-repeat: no-repeat;
 }
 
@@ -2868,7 +2865,7 @@ blockquote {
     justify-content: center;
     border-right: 1px solid #7c7c7c;
     border-left: 1px none #a7a7a7;
-    background-color: #45105f;
+    background-color: #e32682;
     color: #fff;
 }
 
@@ -2877,7 +2874,7 @@ blockquote {
     margin-top: 0px;
     border-left-style: solid;
     border-left-color: #7c7c7c;
-    background-color: #45105f;
+    background-color: #e32682;
 }
 
 .grid-description {
@@ -2970,7 +2967,7 @@ blockquote {
 .primary-style-guide {
     width: 75px;
     height: 75px;
-    background-color: #45105f;
+    background-color: #e32682;
 }
 
 .gray-style-guide {
@@ -3088,8 +3085,8 @@ blockquote {
     padding: 15px 30px;
     border-style: solid;
     border-width: 1px;
-    border-color: #45105f;
-    background-color: #45105f;
+    border-color: #e32682;
+    background-color: #e32682;
     -webkit-transition: background-color 300ms ease;
     transition: background-color 300ms ease;
     color: #fff;
@@ -3099,8 +3096,10 @@ blockquote {
 }
 
 .primary-button:hover {
+    border-color: #222;
+    background-color: #222;
     opacity: 1;
-    color: #ffe100;
+    color: #fff;
 }
 
 .primary-button.full-width {
@@ -3239,7 +3238,7 @@ blockquote {
 }
 
 .nav-link.w--current:hover {
-    color: #45105f;
+    color: #e32682;
 }
 
 .nav-dropdown-toggle {
@@ -3332,7 +3331,7 @@ blockquote {
 }
 
 .nav-dropdown-link.w--current {
-    color: #45105f;
+    color: #e32682;
     font-weight: 400;
 }
 
@@ -4807,7 +4806,7 @@ blockquote {
 }
 
 .footer-social-icon:hover {
-    color: #ffe100;
+    color: #e32682;
 }
 
 .footer-links-wrapper {
@@ -4932,10 +4931,6 @@ blockquote {
     padding: 7px 25px;
     margin: 0 0 0 0;
     color: #000;
-}
-
-.sm-ticket{
-    display: none;
 }
 
 .search-wrap {
@@ -5265,7 +5260,7 @@ blockquote {
 }
 
 .tabs-menu {
-
+    
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -5382,9 +5377,9 @@ blockquote {
 }
 
 .button-with-icon-black:hover {
-    border-color: #45105f;
-    background-color: #45105f;
-    color: #ffe100;
+    border-color: #461187;
+    background-color: #461187;
+    color: #fff;
 }
 
 .home-block {
@@ -5776,9 +5771,9 @@ blockquote {
 }
 
 .primary-button-black:hover {
-    border-color: #45105f;
-    background-color: #45105f;
-    color: #ffe100;
+    border-color: #471087;
+    background-color: #471087;
+    color: #fff;
 }
 
 .button-with-icon-pink {
@@ -6723,8 +6718,6 @@ blockquote {
     font-size: 12px;
 }
 
-
-
 .current-text-span {
     font-size: 12px;
 }
@@ -6937,11 +6930,6 @@ blockquote {
     text-align: center;
 }
 
-.card img{
-    /* min-height: 750px; */
-    /* transform: rotate(90deg); */
-}
-
 .card.card-centered {
     position: relative;
     background-image: none;
@@ -6958,10 +6946,9 @@ blockquote {
 }
 
 .pink-number {
-    color: #fff;
-    font-size: 30px;
+    color: #e32682;
+    font-size: 40px;
     font-weight: 600;
-    margin: 0;
 }
 
 .pricing-price-wrapper {
@@ -7636,7 +7623,6 @@ blockquote {
     overflow: hidden;
     max-width: 1920px;
 }
-
 /* 
 .elements-wrapper .base-container{
         overflow-x: auto;
@@ -7916,15 +7902,14 @@ blockquote {
     font-size: 15px;
     font-weight: 400;
 }
-
-.navigation--link span {
+.navigation--link span{
     color: #461187;
     /* padding: 0px; */
     font-weight: 600;
 }
 
 .navigation--link:hover {
-    color: #ffe100;
+    color: #e32682;
 }
 
 .navigation--link.w--current {
@@ -7945,6 +7930,10 @@ blockquote {
 
 .navigation--link.black-text:hover {
     color: #e32682;
+}
+
+.sm-ticket{
+    display: none;
 }
 
 .cards-wrapper-copy {
@@ -8510,11 +8499,12 @@ blockquote {
 
     .card {
         width: 31%;
+        min-height: 750px;
         background-position: 50% 19%, 50% 50%;
     }
 
     .pink-number {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     .pricing-price-wrapper {
@@ -8697,7 +8687,6 @@ blockquote {
     }
 
     h6 {
-
         margin-bottom: 10px;
     }
 
@@ -9933,7 +9922,7 @@ blockquote {
         -webkit-box-direction: normal;
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
-        flex-direction: row;
+        flex-direction: column;
     }
 
     .button-with-icon-pink {
@@ -10276,7 +10265,7 @@ blockquote {
     }
 
     .navigation--link:hover {
-        color: #ffe100;
+        color: #e32682;
     }
 
     .navigation--link.w--current {
@@ -10953,11 +10942,6 @@ blockquote {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        width: 80%;
-    }
-
-    .event-wrapper h2,h5 {
-        font-size: 3em;
     }
 
     .link-button-wrapper {
@@ -11254,15 +11238,6 @@ blockquote {
 }
 
 @media screen and (max-width: 479px) {
-    .home-block {
-        height: 100vh;
-        background-image: url("Assets/images/website\ lp-02.png");
-        background-position: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    }
-
     .section.about-section-space {
         background-position: 137% 62%;
         background-size: 80%;
@@ -11400,18 +11375,6 @@ blockquote {
 
     .coming-soon-heading {
         font-size: 32px;
-    }
-
-    .schedule-block.pink-background {
-        padding: 3%;
-    }
-
-    .schedule-block {
-        padding: 3%;
-    }
-
-    .data-tab-text {
-        display: none;
     }
 
     .blog-classic-wrapper {
@@ -11601,7 +11564,7 @@ blockquote {
         width: 100%;
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 
     .event-wrapper {
@@ -11671,8 +11634,8 @@ blockquote {
     .idea-image {
         left: 21px;
         bottom: 65px;
-        width: 179px;
-        height: 134px;
+        /* width: 128px;
+        height: 84px; */
     }
 
     .link-image {
