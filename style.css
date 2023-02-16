@@ -11612,8 +11612,8 @@ blockquote {
     }
 
     .timer-wrapper {
-        margin: .45em;
-        width: 0;
+        margin: .65em;
+        /* width: 0; */
         text-align: left;
     }
 
