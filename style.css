@@ -7933,7 +7933,7 @@ blockquote {
 }
 
 .sm-ticket{
-    display: none !important;
+    display: none;
 }
 
 .cards-wrapper-copy {
@@ -9289,13 +9289,13 @@ blockquote {
     }
 
     .navigation--link .ticket {
-        display: none !important;
+        display: none;
     }
 
     .sm-ticket {
-        display: block !important;
-        background-color: #fff !important;
-        border: 1px solid white !important;
+        display: block;
+        background-color: #fff;
+        border: 1px solid white;
         border-radius: 50px;
         padding: 7px 15px;
         margin: 0 0 0 0;
@@ -9308,7 +9308,7 @@ blockquote {
     }
 
     .sm-ticket a{
-        font-weight: 700 !important;
+        font-weight: 700;
     }
 
     .sm-ticket:hover{
