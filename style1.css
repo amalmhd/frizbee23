@@ -6304,7 +6304,7 @@ blockquote {
     position: relative;
     width: 300px;
     height: 300px;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62ced5b1f27d0580af2d1c9a_image%20speaker.jpeg");
+    background-image: url("Assets/speakers/razan\ nizami.jpeg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6313,7 +6313,7 @@ blockquote {
 }
 
 .our-speaker-image:hover {
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62ced5b1f27d0580af2d1c9a_image%20speaker.jpeg");
+    background-image: url("Assets/speakers/razan\ nizami.jpeg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -6321,13 +6321,12 @@ blockquote {
 
 .our-speaker-image.second-image {
     position: relative;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62d18f8dec46470776b8bbf3_boy_11zon.jpeg");
+    background-image: url("Assets/speakers/vinitha\ joseph.jpeg");
     background-size: cover;
 }
-
 .our-speaker-image.third-image {
     position: relative;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62ced51f2ab9f269aa400712_stephanie-liverani-Zz5LQe-VSMY-unsplash.jpg");
+    background-image: url("Assets/speakers/mentalist\ arjun.JPG");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -7008,6 +7007,7 @@ blockquote {
     width: 50%;
     min-height: 500px;
     padding: 70px 50px;
+    padding-top: 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -7024,7 +7024,7 @@ blockquote {
     position: relative;
     width: 50%;
     height: 500px;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62cfd7ce2382a10146dff771_hotel_11zon.jpeg");
+    background-image: url("Assets/workshop/NFT.jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -7054,7 +7054,7 @@ blockquote {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 25px;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62c556f86d4c06293e424a89_ionicons-2%20(2).svg");
+    /* background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62c556f86d4c06293e424a89_ionicons-2%20(2).svg"); */
     background-position: 0% 50%;
     background-size: auto;
     background-repeat: no-repeat;
@@ -7109,7 +7109,7 @@ blockquote {
     position: relative;
     width: 50%;
     height: 500px;
-    background-image: url("https://assets.website-files.com/629247f8c5133d2e917cb25c/62d162645070e9eba145a6f2_hotel_11zon%20(1).jpeg");
+    background-image: url("Assets/workshop/3dprintingasharkyusstock.png");
     background-position: 79% 50%;
     background-size: cover;
     background-repeat: no-repeat;
