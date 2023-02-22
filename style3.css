@@ -6848,7 +6848,7 @@ blockquote {
 }
 
 .hglt-one{
-    background: url("Assets/highlights/workshops.JPG");
+    background: url("Assets/highlights/koushik.jpg");
     background-size: cover;
 }
 
@@ -6874,6 +6874,11 @@ blockquote {
 
 .hglt-six{
     background: url("Assets/highlights/games.jpg");
+    background-size: cover;
+}
+
+.hglt-seven{
+    background: url("Assets/highlights/workshops.jpg");
     background-size: cover;
 }
 
