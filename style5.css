@@ -292,16 +292,19 @@ img {
 html.w-mod-touch * {
     background-attachment: scroll !important
 }
-.hello{
-    position: absolute;   
+
+.hello {
+    position: absolute;
 }
+
 #myVideo {
     position: fixed;
     right: 0;
     bottom: 0;
     min-width: 100%;
     min-height: 100%;
-  }
+}
+
 .w-block {
     display: block
 }
@@ -2447,7 +2450,7 @@ blockquote {
     text-align: center;
 }
 
-#Upcoming-Event.section{
+#Upcoming-Event.section {
     margin-top: -20px;
     z-index: -1;
 }
@@ -3116,7 +3119,7 @@ blockquote {
     border-width: 0;
 }
 
-.primary-button.contact-button:hover{
+.primary-button.contact-button:hover {
     color: #ffc100;
 }
 
@@ -5245,7 +5248,7 @@ blockquote {
 }
 
 .tabs-menu {
-    
+
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
@@ -5347,7 +5350,7 @@ blockquote {
     text-transform: uppercase;
 }
 
-.button-with-icon-black1:hover{
+.button-with-icon-black1:hover {
     color: #ffe100;
     background-color: #45105f;
     border-color: #45105f;
@@ -6253,11 +6256,11 @@ blockquote {
     text-align: center;
 }
 
-.speaker{
+.speaker {
     color: #fff;
 }
 
-.job-possition{
+.job-possition {
     color: rgb(220, 214, 214);
 }
 
@@ -6332,6 +6335,7 @@ blockquote {
     background-image: url("Assets/speakers/mentalist\ arjun.JPG");
     background-size: cover;
 }
+
 .our-speaker-image.third-image {
     position: relative;
     background-image: url("Assets/speakers/vinitha\ joseph.jpeg");
@@ -6847,37 +6851,46 @@ blockquote {
     align-items: center;
 }
 
-.hglt-one{
+.hglt-one {
     background: url("Assets/highlights/koushik.jpg");
     background-size: cover;
 }
 
-.hglt-two{
+.hglt-two {
     background: url("Assets/highlights/talksessions.jpg");
     background-size: cover;
 }
 
-.hglt-three{
+.hglt-three {
     background: url("Assets/highlights/band.jpg");
     background-size: cover;
 }
 
-.hglt-four{
+
+@media screen and (max-width:767px) {
+    .hglt-three {
+        background: url("Assets/highlights/band-mob.jpg");
+        background-size: cover;
+    }
+}
+
+
+.hglt-four {
     background: url("Assets/highlights/culturals.jpg");
     background-size: cover;
 }
 
-.hglt-five{
+.hglt-five {
     background: url("Assets/highlights/night.jpg");
     background-size: cover;
 }
 
-.hglt-six{
+.hglt-six {
     background: url("Assets/highlights/games.jpg");
     background-size: cover;
 }
 
-.hglt-seven{
+.hglt-seven {
     background: url("Assets/highlights/workshops.jpg");
     background-size: cover;
 }
@@ -7645,6 +7658,7 @@ blockquote {
     overflow: hidden;
     max-width: 1920px;
 }
+
 /* 
 .elements-wrapper .base-container{
         overflow-x: auto;
@@ -7924,7 +7938,8 @@ blockquote {
     font-size: 15px;
     font-weight: 400;
 }
-.navigation--link span{
+
+.navigation--link span {
     color: #461187;
     /* padding: 0px; */
     font-weight: 600;
@@ -7953,6 +7968,7 @@ blockquote {
 .navigation--link.black-text:hover {
     color: #e32682;
 }
+
 .cards-wrapper-copy {
     padding-top: 70px;
     padding-bottom: 20px;
@@ -10285,7 +10301,7 @@ blockquote {
         background-color: linear-gradient(to bottom, rgba(82, 16, 164, 1) 40%, rgba(33, 0, 86, 1) 100%) fixed !important;
     }
 
-    .display-none{
+    .display-none {
         display: none;
     }
 
