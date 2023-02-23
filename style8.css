@@ -6951,7 +6951,7 @@ blockquote {
 }
 
 .card {
-    width: 32%;
+    width: 50%;
     /* min-height: 750px;   */
     background-position: 50% 17%, 50% 50%;
     background-size: 95%, 100% 100%;
@@ -8528,7 +8528,7 @@ blockquote {
     }
 
     .card {
-        width: 31%;
+        width: 50%;
         /* min-height: 750px; */
         background-position: 50% 19%, 50% 50%;
     }
