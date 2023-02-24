@@ -7375,6 +7375,7 @@ blockquote {
     display: -ms-flexbox;
     display: flex;
     width: 20%;
+    margin: 25px;
     margin-top: 20px;
     margin-bottom: 20px;
     -webkit-box-pack: center;
