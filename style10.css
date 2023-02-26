@@ -12800,3 +12800,28 @@ blockquote {
     font-style: normal;
     font-display: swap;
 }
+
+.before-tkt {
+    display: flex;
+    justify-content: center;    
+}
+
+.before-tkt h4 {
+    color: #fff;
+    margin: 20px;
+    margin-bottom: 0px;
+}
+
+.before-tkt .fa-solid {
+    margin: 5px;
+    color: #fff;
+}
+
+@media screen and (max-width: 767px) {
+    .before-tkt {
+        display: block;
+    }
+    .wrapper-cards {
+        margin-top: 0px;
+    }
+}
