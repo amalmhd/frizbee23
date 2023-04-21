@@ -6352,13 +6352,13 @@ blockquote {
     background-repeat: no-repeat;
 }
 
-.our-speaker-image.fifth-image {
+/* .our-speaker-image.fifth-image {
     position: relative;
     background-image: url("Assets/speakers/mansi\ tripati.jpg");
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
-}
+} */
 
 .our-speaker-image.fifth-image:hover {
     background-position: 50% 50%;
