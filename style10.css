@@ -10288,7 +10288,9 @@ blockquote {
         background-repeat: no-repeat;
         background-attachment: fixed;
     }
-
+    /* .frizbeetkt{
+        transform: rotate(90deg);
+    } */
     body {
         background-color: linear-gradient(to bottom, rgba(82, 16, 164, 1) 40%, rgba(33, 0, 86, 1) 100%) fixed !important;
     }
@@ -11103,6 +11105,7 @@ blockquote {
         margin-right: auto;
         margin-bottom: 20px;
         margin-left: auto;
+        
     }
 
     .first-card-wrapper {
