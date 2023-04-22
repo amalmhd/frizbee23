@@ -6465,8 +6465,8 @@ blockquote {
 
 .elips-with-macbook {
     position: absolute;
-    width: 550px;
-    height: 550px;
+    width: 540px;
+    height: 675px;
 }
 
 .wrapper-header {
@@ -11647,7 +11647,7 @@ blockquote {
     }
 
     .elips-with-macbook {
-        width: 240px;
+        width: 197px;
         height: 240px;
     }
 
