@@ -6193,7 +6193,7 @@ blockquote {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -6465,8 +6465,8 @@ blockquote {
 
 .elips-with-macbook {
     position: absolute;
-    width: 540px;
-    height: 675px;
+    /* width: 540px;
+    height: 675px; */
 }
 
 .wrapper-header {
@@ -6947,7 +6947,7 @@ blockquote {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .card {
@@ -8460,8 +8460,8 @@ blockquote {
     }
 
     .elips-with-macbook {
-        width: 660px;
-        height: 660px;
+        /* width: 660px;
+        height: 660px; */
     }
 
     .wrapper-with-image {
@@ -8796,8 +8796,8 @@ blockquote {
     }
 
     .elips-with-macbook {
-        width: 660px;
-        height: 660px;
+        /* width: 660px;
+        height: 660px; */
     }
 
     .wrapper-with-image {
@@ -9020,8 +9020,8 @@ blockquote {
 
     .elips-with-macbook {
         position: absolute;
-        width: 900px;
-        height: 900px;
+        /* width: 900px;
+        height: 900px; */
         max-width: none;
     }
 
@@ -10028,8 +10028,10 @@ blockquote {
     }
 
     .elips-with-macbook {
-        width: 600px;
-        height: 600px;
+        left: 3em;
+        padding-bottom: 20px;
+        /* width: 600px;
+        height: 600px; */
     }
 
     .wrapper-header {
@@ -11010,8 +11012,8 @@ blockquote {
     }
 
     .elips-with-macbook {
-        width: 400px;
-        height: 400px;
+        /* width: 400px;
+        height: 400px; */
     }
 
     .wrapper-header {
