@@ -11153,8 +11153,14 @@ blockquote {
     .image-wrapper {
         width: 100%;
     }
+    .image-wrapper1 {
+        width: 100%;
+    }
 
     .second-card-image-wrapper {
+        width: 100%;
+    }
+    .second-card-image-wrapper1 {
         width: 100%;
     }
 
